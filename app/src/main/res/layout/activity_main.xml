@@ -5,10 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp"
-    android:paddingTop="15dp"
-    android:paddingBottom="15dp"
+    android:background="#FFFFFF"
+    android:padding="15dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -101,11 +99,11 @@
 
 
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/tje_logo_01"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tje_logo_01"/>
 
 
     <Button
